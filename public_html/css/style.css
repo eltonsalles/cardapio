@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+p {
+    background: silver;
+    padding: 40px 10px;
+    border: 2px solid black;
+}
+
+#chicken,
+#beef,
+#sushi {
+    position: relative;
+}
+
+#chicken h2,
+#beef h2,
+#sushi h2 {
+    position: absolute;
+    padding: 0 30px;
+    top: -20px;
+    right: 0;
+    border: 2px solid black;
+}
+
+#chicken h2 {
+    background: pink;
+}
+
+#beef h2 {
+    background: red;
+    color: white;
+}
+
+#sushi h2 {
+    background: lightsalmon;
+}
